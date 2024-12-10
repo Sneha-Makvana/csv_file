@@ -1,0 +1,270 @@
+INFO - 2024-12-10 05:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-10 05:30:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-10 05:30:24 --> CodeIgniter\HTTP\Exceptions\HTTPException: Could not move file "php2E64.tmp" to "C:\xampp\htdocs\sneha\codeigniter\csv_file\writable\uploads/". Reason: 
+[Method: POST, Route: csv/import]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 154.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(154): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('php2E64.tmp', 'C:\\xampp\\htdocs\\sneha\\codeigniter\\csv_file\\writable\\uploads/', '')
+ 2 APPPATH\Controllers\CsvController.php(29): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\sneha\\codeigniter\\csv_file\\writable\\uploads/', 'C:\\xampp\\htdocs\\sneha\\codeigniter\\csv_file\\writable\\uploads/1733808624_bad7c7857e5802701d7b.csv')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CsvController->import()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CsvController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sneha\\codeigniter\\csv_file\\public\\index.php')
+INFO - 2024-12-10 05:30:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-10 05:32:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-10 05:32:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-10 05:32:49 --> CodeIgniter\HTTP\Exceptions\HTTPException: Could not move file "php677C.tmp" to "C:\xampp\htdocs\sneha\codeigniter\csv_file\writable\uploads/". Reason: 
+[Method: POST, Route: csv/import]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 154.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(154): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('php677C.tmp', 'C:\\xampp\\htdocs\\sneha\\codeigniter\\csv_file\\writable\\uploads/', '')
+ 2 APPPATH\Controllers\CsvController.php(29): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\sneha\\codeigniter\\csv_file\\writable\\uploads/', 'C:\\xampp\\htdocs\\sneha\\codeigniter\\csv_file\\writable\\public/uploads/1733808769_dfd7c090db8705e22630.csv')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CsvController->import()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CsvController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sneha\\codeigniter\\csv_file\\public\\index.php')
+INFO - 2024-12-10 05:36:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-10 05:37:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-10 05:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-10 05:37:23 --> CodeIgniter\HTTP\Exceptions\HTTPException: Could not move file "php9502.tmp" to "C:\xampp\htdocs\sneha\codeigniter\csv_file\writable\uploads/". Reason: 
+[Method: POST, Route: csv/import]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 154.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(154): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('php9502.tmp', 'C:\\xampp\\htdocs\\sneha\\codeigniter\\csv_file\\writable\\uploads/', '')
+ 2 APPPATH\Controllers\CsvController.php(30): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\sneha\\codeigniter\\csv_file\\writable\\uploads/', 'C:\\xampp\\htdocs\\sneha\\codeigniter\\csv_file\\writable\\uploads/1733809043_ab9cb92907dcd3ba1beb.csv')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CsvController->import()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CsvController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sneha\\codeigniter\\csv_file\\public\\index.php')
+INFO - 2024-12-10 05:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-10 05:37:45 --> CodeIgniter\HTTP\Exceptions\HTTPException: Could not move file "phpE872.tmp" to "C:\xampp\htdocs\sneha\codeigniter\csv_file\writable\uploads/". Reason: 
+[Method: POST, Route: csv/import]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 154.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(154): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpE872.tmp', 'C:\\xampp\\htdocs\\sneha\\codeigniter\\csv_file\\writable\\uploads/', '')
+ 2 APPPATH\Controllers\CsvController.php(30): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\sneha\\codeigniter\\csv_file\\writable\\uploads/', 'C:\\xampp\\htdocs\\sneha\\codeigniter\\csv_file\\writable\\uploads/1733809064_19193622e2a9be91c916.csv')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CsvController->import()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CsvController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sneha\\codeigniter\\csv_file\\public\\index.php')
+INFO - 2024-12-10 05:42:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-10 05:42:57 --> CodeIgniter\HTTP\Exceptions\HTTPException: Could not move file "phpAC9B.tmp" to "C:\xampp\htdocs\sneha\codeigniter\csv_file\writable\uploads/". Reason: 
+[Method: POST, Route: csv/import]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 154.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(154): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpAC9B.tmp', 'C:\\xampp\\htdocs\\sneha\\codeigniter\\csv_file\\writable\\uploads/', '')
+ 2 APPPATH\Controllers\CsvController.php(30): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\sneha\\codeigniter\\csv_file\\writable\\uploads/', 'C:\\xampp\\htdocs\\sneha\\codeigniter\\csv_file\\writable\\uploads/1733809377_e7fba051f61e472ac6cc.csv')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CsvController->import()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CsvController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sneha\\codeigniter\\csv_file\\public\\index.php')
+INFO - 2024-12-10 05:43:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-10 05:43:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-10 05:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-10 05:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-10 05:43:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-10 05:43:51 --> CodeIgniter\HTTP\Exceptions\HTTPException: Could not move file "php8180.tmp" to "public/uploads/". Reason: 
+[Method: POST, Route: csv/import]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 154.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(154): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('php8180.tmp', 'public/uploads/', '')
+ 2 APPPATH\Controllers\CsvController.php(31): CodeIgniter\HTTP\Files\UploadedFile->move('public/uploads/', 'public/uploads/1733809431_b7ea700b20461bee9276.csv')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CsvController->import()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CsvController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sneha\\codeigniter\\csv_file\\public\\index.php')
+INFO - 2024-12-10 05:44:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-10 05:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-10 05:45:03 --> CodeIgniter\HTTP\Exceptions\HTTPException: Could not move file "php9802.tmp" to "public/uploads/". Reason: 
+[Method: POST, Route: csv/import]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 154.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(154): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('php9802.tmp', 'public/uploads/', '')
+ 2 APPPATH\Controllers\CsvController.php(31): CodeIgniter\HTTP\Files\UploadedFile->move('public/uploads/', 'public/uploads/1733809503_5778ca1a258789f8ee32.csv')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CsvController->import()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CsvController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sneha\\codeigniter\\csv_file\\public\\index.php')
+INFO - 2024-12-10 05:46:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-10 05:46:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-10 05:46:46 --> CodeIgniter\HTTP\Exceptions\HTTPException: Could not move file "php2D29.tmp" to "public/uploads/". Reason: 
+[Method: POST, Route: csv/import]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 154.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(154): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('php2D29.tmp', 'public/uploads/', '')
+ 2 APPPATH\Controllers\CsvController.php(31): CodeIgniter\HTTP\Files\UploadedFile->move('public/uploads/', 'public/uploads/1733809606_e37c4e23380d269e2454.csv')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CsvController->import()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CsvController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sneha\\codeigniter\\csv_file\\public\\index.php')
+INFO - 2024-12-10 05:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-10 05:48:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-10 05:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-10 05:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-10 05:49:20 --> CodeIgniter\HTTP\Exceptions\HTTPException: Could not move file "php840B.tmp" to "public/uploads/". Reason: 
+[Method: POST, Route: csv/import]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 154.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(154): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('php840B.tmp', 'public/uploads/', '')
+ 2 APPPATH\Controllers\CsvController.php(31): CodeIgniter\HTTP\Files\UploadedFile->move('public/uploads/', 'public/uploads/1733809760_bf955fbed31f565cd3a0.csv')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CsvController->import()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CsvController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sneha\\codeigniter\\csv_file\\public\\index.php')
+INFO - 2024-12-10 05:50:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-10 05:50:52 --> CodeIgniter\HTTP\Exceptions\HTTPException: Could not move file "phpECB4.tmp" to "public/uploads/". Reason: 
+[Method: POST, Route: csv/import]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 154.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(154): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpECB4.tmp', 'public/uploads/', '')
+ 2 APPPATH\Controllers\CsvController.php(31): CodeIgniter\HTTP\Files\UploadedFile->move('public/uploads/', 'public/uploads/1733809852_5fc79e4c04da16327c52.csv')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CsvController->import()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CsvController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sneha\\codeigniter\\csv_file\\public\\index.php')
+INFO - 2024-12-10 05:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-10 05:51:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-10 05:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-10 05:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-10 05:52:48 --> ErrorException: file(public/uploads/1733809968_795be19cfc4b9dbba843.csv): Failed to open stream: No such file or directory
+[Method: POST, Route: csv/import]
+in APPPATH\Controllers\CsvController.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file(public/uploads/1733809968_795be19cfc4b9dbba843.csv): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\sneha\\codeigniter\\csv_file\\app\\Controllers\\CsvController.php', 34)
+ 2 APPPATH\Controllers\CsvController.php(34): file('public/uploads/1733809968_795be19cfc4b9dbba843.csv')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CsvController->import()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CsvController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sneha\\codeigniter\\csv_file\\public\\index.php')
+INFO - 2024-12-10 05:52:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-10 05:53:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-10 05:53:18 --> CodeIgniter\HTTP\Exceptions\HTTPException: Could not move file "php26D7.tmp" to "public/uploads/". Reason: 
+[Method: POST, Route: csv/import]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 154.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(154): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('php26D7.tmp', 'public/uploads/', '')
+ 2 APPPATH\Controllers\CsvController.php(31): CodeIgniter\HTTP\Files\UploadedFile->move('public/uploads/', 'public/uploads/1733809998_0957bae2d778bb950263.csv')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CsvController->import()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CsvController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sneha\\codeigniter\\csv_file\\public\\index.php')
+INFO - 2024-12-10 05:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-10 05:55:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-10 05:55:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-10 05:55:12 --> CodeIgniter\HTTP\Exceptions\HTTPException: Could not move file "phpE4A5.tmp" to "uploads/". Reason: 
+[Method: POST, Route: csv/import]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 154.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(154): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpE4A5.tmp', 'uploads/', '')
+ 2 APPPATH\Controllers\CsvController.php(31): CodeIgniter\HTTP\Files\UploadedFile->move('uploads/', 'uploads/1733810112_b61b2c502a256d50ce20.csv')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CsvController->import()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CsvController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sneha\\codeigniter\\csv_file\\public\\index.php')
+INFO - 2024-12-10 05:55:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-10 05:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-10 05:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-10 05:55:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-10 05:55:43 --> CodeIgniter\HTTP\Exceptions\HTTPException: Could not move file "php5F06.tmp" to "public/uploads/". Reason: 
+[Method: POST, Route: csv/import]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 154.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(154): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('php5F06.tmp', 'public/uploads/', '')
+ 2 APPPATH\Controllers\CsvController.php(31): CodeIgniter\HTTP\Files\UploadedFile->move('public/uploads/', 'public/uploads/1733810143_ca78c4f1d3ec3ba499c2.csv')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CsvController->import()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CsvController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sneha\\codeigniter\\csv_file\\public\\index.php')
+INFO - 2024-12-10 05:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-10 05:56:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-10 05:56:13 --> CodeIgniter\HTTP\Exceptions\HTTPException: Could not move file "phpD1F5.tmp" to "./public/uploads/". Reason: 
+[Method: POST, Route: csv/import]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 154.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(154): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpD1F5.tmp', './public/uploads/', '')
+ 2 APPPATH\Controllers\CsvController.php(31): CodeIgniter\HTTP\Files\UploadedFile->move('./public/uploads/', './public/uploads/1733810173_53a4854914f4ae016557.csv')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CsvController->import()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CsvController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sneha\\codeigniter\\csv_file\\public\\index.php')
+INFO - 2024-12-10 06:01:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-10 06:01:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-10 06:01:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-10 06:05:03 --> CodeIgniter\HTTP\Exceptions\HTTPException: Could not move file "phpE9DC.tmp" to "./public/uploads/". Reason: 
+[Method: POST, Route: csv/import]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 154.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(154): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpE9DC.tmp', './public/uploads/', '')
+ 2 APPPATH\Controllers\CsvController.php(34): CodeIgniter\HTTP\Files\UploadedFile->move('./public/uploads/', './public/uploads/1733810703_a589cdcfc2a33a47e4c5.csv')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CsvController->import()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CsvController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sneha\\codeigniter\\csv_file\\public\\index.php')
+CRITICAL - 2024-12-10 06:05:38 --> CodeIgniter\HTTP\Exceptions\HTTPException: Could not move file "php7024.tmp" to "./public/uploads/". Reason: 
+[Method: POST, Route: csv/import]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 154.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(154): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('php7024.tmp', './public/uploads/', '')
+ 2 APPPATH\Controllers\CsvController.php(34): CodeIgniter\HTTP\Files\UploadedFile->move('./public/uploads/', './public/uploads/1733810738_aaa67f3bec6ed02a175d.csv')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CsvController->import()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CsvController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sneha\\codeigniter\\csv_file\\public\\index.php')
+CRITICAL - 2024-12-10 06:06:14 --> CodeIgniter\HTTP\Exceptions\HTTPException: Could not move file "phpFEC9.tmp" to "public/uploads/". Reason: 
+[Method: POST, Route: csv/import]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 154.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(154): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpFEC9.tmp', 'public/uploads/', '')
+ 2 APPPATH\Controllers\CsvController.php(34): CodeIgniter\HTTP\Files\UploadedFile->move('public/uploads/', 'public/uploads/1733810774_b90f683f082282221ea2.csv')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CsvController->import()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CsvController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sneha\\codeigniter\\csv_file\\public\\index.php')
+CRITICAL - 2024-12-10 06:06:41 --> CodeIgniter\HTTP\Exceptions\HTTPException: Could not move file "php6796.tmp" to "uploads/". Reason: 
+[Method: POST, Route: csv/import]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 154.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(154): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('php6796.tmp', 'uploads/', '')
+ 2 APPPATH\Controllers\CsvController.php(34): CodeIgniter\HTTP\Files\UploadedFile->move('uploads/', 'uploads/1733810801_c79112293384d63a0115.csv')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CsvController->import()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CsvController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sneha\\codeigniter\\csv_file\\public\\index.php')
